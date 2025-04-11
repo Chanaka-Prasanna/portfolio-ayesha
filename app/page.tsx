@@ -78,7 +78,7 @@ export default function Home() {
             </a>
           </div>
           <div className="mt-4 text-gray-400 text-sm">
-            <p>Undergaduate | University of Sri Jayewardanepura</p>
+            <p>Undergraduate | University of Sri Jayewardanepura</p>
           </div>
         </div>
       </footer>
