@@ -10,15 +10,17 @@ const Hero = () => {
         <div className="order-2 md:order-1">
           <h1 className="mb-4">
             Hello, I'm{" "}
-            <span className="text-[#80ed99]">G. K. D. Indeewari</span>
+            <span className="text-[#80ed99]">Ayesha Madhuwanthi</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-medium mb-6 text-gray-600">
-            HR Professional & Economics Researcher
+            People. Passion. Progress.
           </h2>
           <p className="text-lg mb-8 max-w-lg text-gray-600">
-            Dynamic and people-focused professional specializing in Human
-            Resource Management and Economic Research. Passionate about creating
-            value through collaboration, empathy, and practical solutions.
+            I'm a final-year undergraduate specializing in Economics and Human
+            Resource Management, with a strong interest in building positive,
+            people-first workplace environments. I’m passionate about team
+            collaboration, employee development, and using data-driven insights
+            to support organizational growth and well-being.
           </p>
           <div className="flex gap-4">
             <a href="#contact" className="btn-primary">
@@ -50,7 +52,7 @@ const Hero = () => {
         <div className="order-1 md:order-2 flex justify-center">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#80ed99]">
             <Image
-              src="/api/placeholder/400/400"
+              src="/me.jpeg"
               alt="G. K. D. Indeewari"
               fill
               className="object-cover"

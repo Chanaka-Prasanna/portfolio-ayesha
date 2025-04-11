@@ -27,7 +27,7 @@ const NavigationBar = () => {
           href="#hero"
           className="text-xl font-bold flex items-center gap-2"
         >
-          <span className="text-[#80ed99]">G.K.D.</span>Indeewari
+          <span className="text-[#80ed99]">Ayesha</span>Madhuwanthi
         </Link>
 
         {/* Desktop Menu */}

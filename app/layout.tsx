@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "G. K. D. Indeewari | Portfolio",
+  title: "Ayesha Madhuwanthi | Personal Website",
   description:
-    "Personal portfolio of G. K. D. Indeewari, HR Professional and Economist",
+    "Final-year undergraduate with a strong academic foundation in Economics and HR Management, driven by a passion for creating engaging workplace cultures and developing innovative talent strategies.",
 };
 
 export default function RootLayout({

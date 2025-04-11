@@ -17,51 +17,67 @@ const Skills = () => {
     <section id="skills" className="section">
       <h2 className="section-title">Skills</h2>
 
+      {/* Technical Skills Section */}
       <div className="mt-10">
         <h3 className="text-xl font-semibold mb-6">Technical Skills</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {technicalSkills.map((skill, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+              className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center"
             >
-              <div className="flex justify-between items-center mb-3">
-                <h4 className="font-medium">{skill.name}</h4>
-                <span className="text-sm font-medium text-[#80ed99]">
-                  {skill.level}%
-                </span>
-              </div>
-              <div className="skill-meter">
-                <div
-                  className="skill-progress"
-                  style={{ width: `${skill.level}%` }}
-                ></div>
-              </div>
+              {/* Technical skill icon */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 text-[#80ed99]"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M16 18l6-6-6-6M8 6l-6 6 6 6"
+                />
+              </svg>
+              <h4 className="font-medium ml-3">{skill.name}</h4>
             </div>
           ))}
         </div>
       </div>
 
+      {/* Language Skills Section */}
       <div className="mt-10">
         <h3 className="text-xl font-semibold mb-6">Language Skills</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {languageSkills.map((skill, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow"
+              className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-center"
             >
-              <div className="flex justify-between items-center mb-3">
-                <h4 className="font-medium">{skill.name}</h4>
-                <span className="text-sm font-medium text-[#80ed99]">
-                  {skill.level}%
-                </span>
-              </div>
-              <div className="skill-meter">
-                <div
-                  className="skill-progress"
-                  style={{ width: `${skill.level}%` }}
-                ></div>
-              </div>
+              {/* Language skill icon */}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 text-[#80ed99]"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 2a10 10 0 100 20 10 10 0 000-20z"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M2 12h20"
+                />
+              </svg>
+              <h4 className="font-medium ml-3">{skill.name}</h4>
             </div>
           ))}
         </div>

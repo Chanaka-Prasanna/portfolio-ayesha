@@ -38,12 +38,12 @@ export default function Home() {
       <footer className="bg-gray-800 text-white py-10">
         <div className="container mx-auto px-6 md:px-10 text-center">
           <p className="mb-2">
-            &copy; {new Date().getFullYear()} G. K. D. Indeewari. All rights
+            &copy; {new Date().getFullYear()} Ayesha Madhuwanthi. All rights
             reserved.
           </p>
           <div className="flex justify-center gap-4 mt-4">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/ayeshadinfo/"
               className="text-gray-300 hover:text-[#80ed99] transition-colors"
             >
               <span className="sr-only">LinkedIn</span>
@@ -57,7 +57,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://ayesha-madhuwanthi.vercel.app/"
               className="text-gray-300 hover:text-[#80ed99] transition-colors"
             >
               <span className="sr-only">Personal Website</span>
@@ -78,7 +78,7 @@ export default function Home() {
             </a>
           </div>
           <div className="mt-4 text-gray-400 text-sm">
-            <p>Lecturer in Economics | University of Sri Jayewardanepura</p>
+            <p>Undergaduate | University of Sri Jayewardanepura</p>
           </div>
         </div>
       </footer>
